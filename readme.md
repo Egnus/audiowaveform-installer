@@ -4,12 +4,13 @@ Ubuntu 18 binary installer of [Audiowavform](https://github.com/bbc/audiowavefor
 
 Inspired by [ffmpeg-installer](https://github.com/kribblo/node-ffmpeg-installer)
 
-Using version 1.3.3 of Audiowaveform
+Using version 1.3.3 of Audiowaveform for Ubuntu
+Using version 1.4.2 of Audiowaveform for Darwin (MacOS)
 
 ## Install
 
     npm i audiowaveform-installer
-    
+
 ## Usage examples
 
 ```javascript
@@ -38,5 +39,5 @@ exec(`${audiowaveform} -i ${mp3File} -o ${waveFile} ${waveformArgs.join(' ')}`, 
 If you get permissions issues, try adding a .npmrc file with the following:
 
     unsafe-perm=true
-    
-See [tip from ffmpeg-installer](https://github.com/kribblo/node-ffmpeg-installer/issues/21) 
+
+See [tip from ffmpeg-installer](https://github.com/kribblo/node-ffmpeg-installer/issues/21)
